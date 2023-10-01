@@ -1,19 +1,19 @@
-# Wiz SE Demo Repository - Github
+#   SE Demo Repository - Github
 
 ### Description
-This repository is dedicated to providing a starting point for SE demos using CI integration for WizCLI
+This repository is dedicated to providing a starting point for SE demos using CI integration for  CLI
 
 ## Requirements
 
 * Github Account
-* Wiz Service Account (`create:security_scans`)
+*   Service Account (`create:security_scans`)
 * Ability to work with branches in Git
 
 ### OPTIONAL - Supporting requirements for dev machine
 
 * Git installed
 * VS Code
-* Wiz-CLI
+*  -CLI
 * AWSCLI installed and operational
 * Azure CLI installed and operational
 * Terraform >= 1.0 installed and operational
@@ -31,11 +31,11 @@ NOTE: BE SURE TO SELECT YOUR PERSONAL REPO
 
 ![](images/create_repo.png)
 
-3. Recreate repository secrets (obtained from Wiz service account `create:security_scans`)
-  * `WIZ_CLIENT_ID`
-  * `WIZ_CLIENT_SECRET`
+3. Recreate repository secrets (obtained from   service account `create:security_scans`)
+  * ` _CLIENT_ID`
+  * ` _CLIENT_SECRET`
 
-NOTE: If targeting test you may also set the `WIZ_ENV` here as well.
+NOTE: If targeting test you may also set the ` _ENV` here as well.
 
 ![](images/create_secrets.png)
 
@@ -81,7 +81,7 @@ The github actions located in `.github/workflows` will provide the required acti
 
 ![](images/branch_policy.png)
 
-**NOTE: BE SURE TO SELECT BOTH ACTIONS** `Wiz-cli Dockerfile and Container Scan` and `Wiz-cli IaC Scan`
+**NOTE: BE SURE TO SELECT BOTH ACTIONS** ` -cli Dockerfile and Container Scan` and ` -cli IaC Scan`
 
 8. Go back and view you PRs
 

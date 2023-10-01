@@ -5,10 +5,6 @@ This repository is dedicated to providing a starting point for SE demos using CI
 
 ## Requirements
 
-* Github Account
-*   Service Account (`create:security_scans`)
-* Ability to work with branches in Git
-
 ### OPTIONAL - Supporting requirements for dev machine
 
 * Git installed
